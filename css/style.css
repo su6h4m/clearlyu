@@ -1627,9 +1627,9 @@ footer {
 @media (max-width: 768px) {
   /* Mobile Gold Color Override */
   :root {
-    --gold: #b8860b;
-    --gold-light: #daa520;
-    --gold-dark: #9a7209;
+    --gold: #f9c84d;
+    --gold-light: #f3c144;
+    --gold-dark: #eebb39;
   }
 
   .menu-toggle {
