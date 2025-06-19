@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClearlyU - Premium Skincare</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Nunito+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="ClearlyU" width="90" height="70"></a>
+            </div>
+            <nav>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html" class="active">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="https://www.instagram.com/ClearlyU.in/"><i class="fab fa-instagram"></i></a></li>
+                   <li><a href="https://wa.me/+918572065876"><i class="fab fa-whatsapp"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Products</h1>
+            <p>Discover our premium skincare collection</p>
+        </div>
+    </section>
+
+    <section class="product-categories">
+        <div class="container">
+            <div class="category-filters">
+                <button class="category-btn active" data-category="all">All Products</button>
+                <button class="category-btn" data-category="cleansers">Cleansers</button>
+                <button class="category-btn" data-category="serums">Sunscreens</button>
+                <button class="category-btn" data-category="moisturizers">Moisturizers</button>
+                <button class="category-btn" data-category="masks">Combo Packs</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="products-section">
+        <div class="container">
+            <div class="products-grid">
+                <!-- Cleansers -->
+                <div class="product-card" data-category="cleansers" data-product="gentle-cleanser">
+                    <div class="product-image">
+                        <img src="images/1_2.png" alt="Gentle Cleanser">
+                    </div>
+                    <h3>Gentle Cleanser</h3>
+                    <p>Removes impurities without drying</p>
+                    <span class="price">View More</span>
+                    <a href="#" class="btn-small product-details" data-product="gentle-cleanser">View Details</a>
+                </div>
+                <div class="product-card" data-category="cleansers" data-product="exfoliating-cleanser">
+                    <div class="product-image">
+                        <img src="images/1_1.png" alt="Exfoliating Cleanser">
+                    </div>
+                    <h3>Oily Skin Cleanser</h3>
+                    <p>Gentle exfoliation for renewed skin</p>
+                    <span class="price">$36.00</span>
+                    <a href="#" class="btn-small product-details" data-product="exfoliating-cleanser">View Details</a>
+                </div>
+                
+                <!-- Serums -->
+                <div class="product-card" data-category="serums" data-product="hydrating-serum">
+                    <div class="product-image">
+                        <img src="images/3.png" alt="Hydrating Serum">
+                    </div>
+                    <h3>Hydrating Serum</h3>
+                    <p>Deep hydration for all skin types</p>
+                    <span class="price">$45.00</span>
+                    <a href="#" class="btn-small product-details" data-product="hydrating-serum">View Details</a>
+                </div>
+
+                <!--
+                <div class="product-card" data-category="serums" data-product="vitamin-c-serum">
+                    <div class="product-image">
+                        <img src="images/9.jpg" alt="Vitamin C Serum">
+                    </div>
+                    <h3>Vitamin C Serum</h3>
+                    <p>Brightens and evens skin tone</p>
+                    <span class="price">$48.00</span>
+                    <a href="#" class="btn-small product-details" data-product="vitamin-c-serum">View Details</a>
+                </div>
+                <div class="product-card" data-category="serums" data-product="anti-aging-serum">
+                    <div class="product-image">
+                        <img src="images/10.jpg" alt="Anti-Aging Serum">
+                    </div>
+                    <h3>Anti-Aging Serum</h3>
+                    <p>Reduces fine lines and wrinkles</p>
+                    <span class="price">$52.00</span>
+                    <a href="#" class="btn-small product-details" data-product="anti-aging-serum">View Details</a>
+                </div>
+                -->
+
+                <!-- Moisturizers -->
+                <div class="product-card" data-category="moisturizers" data-product="daily-moisturizer">
+                    <div class="product-image">
+                        <img src="images/11.jpg" alt="Daily Moisturizer">
+                    </div>
+                    <h3>Daily Moisturizer</h3>
+                    <p>Lightweight hydration for everyday use</p>
+                    <span class="price">$38.00</span>
+                    <a href="#" class="btn-small product-details" data-product="daily-moisturizer">View Details</a>
+                </div>
+                <!--
+                <div class="product-card" data-category="moisturizers" data-product="night-cream">
+                    <div class="product-image">
+                        <img src="images/3.jpg" alt="Rejuvenating Night Cream">
+                    </div>
+                    <h3>Rejuvenating Night Cream</h3>
+                    <p>Repair and renew while you sleep</p>
+                    <span class="price">$58.00</span>
+                    <a href="#" class="btn-small product-details" data-product="night-cream">View Details</a>
+                </div>
+                -->
+
+                <!-- Masks -->
+                <div class="product-card" data-category="masks" data-product="hydrating-mask">
+                    <div class="product-image">
+                        <img src="images/12.jpg" alt="Hydrating Mask">
+                    </div>
+                    <h3>Hydrating Mask</h3>
+                    <p>Intense moisture boost for dry skin</p>
+                    <span class="price">$42.00</span>
+                    <a href="#" class="btn-small product-details" data-product="hydrating-mask">View Details</a>
+                </div>
+                <div class="product-card" data-category="masks" data-product="clay-mask">
+                    <div class="product-image">
+                        <img src="images/13.jpg" alt="Purifying Clay Mask">
+                    </div>
+                    <h3>Purifying Clay Mask</h3>
+                    <p>Draws out impurities and detoxifies</p>
+                    <span class="price">$40.00</span>
+                    <a href="#" class="btn-small product-details" data-product="clay-mask">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Details Section -->
+    <section class="product-details-section" id="productDetailsSection" style="display: none;">
+        <div class="container">
+            <div class="product-details-content">
+                <div class="product-details-image">
+                    <img id="detailsImage" src="images/1.png" alt="Product Image">
+                </div>
+                <div class="product-details-info">
+                    <h2 id="detailsTitle"></h2>
+                    <span class="details-price" id="detailsPrice"></span>
+                    <div class="details-description" id="detailsDescription"></div>
+                    <div class="details-ingredients">
+                        <h3>Key Ingredients:</h3>
+                        <ul id="detailsIngredients"></ul>
+                    </div>
+                    <div class="details-benefits">
+                        <h3>Benefits:</h3>
+                        <ul id="detailsBenefits"></ul>
+                    </div>
+                    <div class="details-usage">
+                        <h3>How to Use:</h3>
+                        <p id="detailsUsage"></p>
+                    </div>
+                    <div class="purchase-buttons">
+                        <a href="#" class="purchase-btn amazon-btn" data-platform="amazon">
+                            <i class="fab fa-amazon"></i>
+                            Amazon
+                        </a>
+                        <a href="#" class="purchase-btn flipkart-btn" data-platform="flipkart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Flipkart
+                        </a>
+                        <a href="#" class="purchase-btn whatsapp-btn" data-platform="whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                            WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Similar Products Section -->
+    <section class="similar-products-section" id="similarProductsSection" style="display: none;">
+        <div class="container">
+            <h2>Similar Products</h2>
+            <div class="similar-products-grid" id="similarProductsGrid">
+                <!-- Similar products will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+ 
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3><span class="logo-accent">Clearly</span>U</h3>
+                    <p>Premium skincare products made with natural ingredients for a radiant, healthy glow.</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/16j2LBGwbG/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/ClearlyU.in/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.x.com/clearlyu_in/"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/+918572065876"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a> |
+                        <a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a> |
+                        <a href="contact.html">Contact</a></li>
+                        <li><a href="underConstruction.html">Privacy Policy</a></li>
+                        <li><a href="underConstruction.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i>Industrial Area, Chandigarh, India</li>
+                        <li><i class="fas fa-phone"></i> 8572065876</li>
+                        <li><i class="fas fa-envelope"></i> clearlyu.in@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 ClearlyU. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/products.js"></script>
+</body>
+</html>
